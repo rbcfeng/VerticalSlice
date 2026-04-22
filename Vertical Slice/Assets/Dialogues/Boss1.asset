@@ -13,12 +13,11 @@ MonoBehaviour:
   m_Name: Boss1
   m_EditorClassIdentifier: 
   _lines:
-  - _portrait: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-    _dialogueText: Hey, how've you been? The water leaks are driving me crazy...
-  - _portrait: {fileID: 10917, guid: 0000000000000000f000000000000000, type: 0}
-    _dialogueText: Yeah, I'm a little worried...
+  - Hey, how've you been? The water leaks are driving me crazy...
+  - Yeah, I'm a little worried...
   _playerReplies:
   - How do you feel about leaving?
   - How far have you packed?
   - What was your favorite memory here?
-  _nextnode: []
+  _nextnode:
+  - {fileID: 0}

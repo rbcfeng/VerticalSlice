@@ -7,7 +7,7 @@ using UnityEngine;
 public class DialogueNode : ScriptableObject
 {
   
-    public Dialogues[] _lines;
+    public string[] _lines;
     public string[] _playerReplies;
     public NextNode[] _nextnode;
 

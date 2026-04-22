@@ -7,6 +7,5 @@ using UnityEngine;
 [Serializable]
 public class Dialogues
 {
-    public Sprite _portrait;
     public string _dialogueText;
 }
