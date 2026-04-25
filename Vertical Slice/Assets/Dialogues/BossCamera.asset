@@ -9,10 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c91b516c3108404bb893d4e083eac5f, type: 3}
+  m_Script: {fileID: 11500000, guid: 4826a30cda8a86f4bb2e460f3d210a27, type: 3}
   m_Name: BossCamera
   m_EditorClassIdentifier: 
-  _lines:
-  - 
+  _lines: []
   _playerReplies: []
   _nextnode: []
