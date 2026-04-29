@@ -12,6 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4826a30cda8a86f4bb2e460f3d210a27, type: 3}
   m_Name: BossCamera
   m_EditorClassIdentifier: 
-  _lines: []
+  _lines:
+  - Honestly, I'm going to miss a lot of things about this place.
+  - Actually, remember the camera I always had? I never really used it but...
+  - I think it'd be a nice way to look back at the few pictures I took with it.
+  - Can you help me find it?
+  - No problem.
   _playerReplies: []
   _nextnode: []

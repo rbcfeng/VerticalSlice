@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4826a30cda8a86f4bb2e460f3d210a27, type: 3}
+  m_Name: BossMusicCD
+  m_EditorClassIdentifier: 
+  _lines:
+  - I'm starting to reminisce the wonderful mornings here, where I kept playing the
+    celebration song to wake everyone up.
+  - Yeah, I've got to say it was quite nice, but it got really annoying afterwards...
+  - I know, but I still want to remember it. Could you help me find the CD while
+    I pack?
+  - No problem.
+  _playerReplies: []
+  _nextnode: []

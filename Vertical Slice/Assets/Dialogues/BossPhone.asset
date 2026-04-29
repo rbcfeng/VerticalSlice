@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4826a30cda8a86f4bb2e460f3d210a27, type: 3}
+  m_Name: BossPhone
+  m_EditorClassIdentifier: 
+  _lines:
+  - I'm pretty overwhelmed. I need to keep myself updated with my family.
+  - '*feels pockets*'
+  - Oh shoot.
+  - I think I left my phone somewhere.
+  - Can you help me find it?
+  - No problem.
+  _playerReplies: []
+  _nextnode: []
