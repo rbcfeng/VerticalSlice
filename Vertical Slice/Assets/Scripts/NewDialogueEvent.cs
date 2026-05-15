@@ -7,6 +7,7 @@ using UnityEngine;
 public static class EventNames
 {
   public static string NewDialogueEvent = "NewDialogueEvent";
+  public static string PurchasedItem = "PurchasedItem";
 }
 
 [UnitTitle("On New Dialogue Event")]
