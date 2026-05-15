@@ -14,7 +14,30 @@ I've added a ScriptableObjects bubble in my break-down and adjusted the player i
 The State Graph of the GameController GameObject is related to the NPC Boss Scripting Graph. The State Graph defines the clickedNPC event in the transition between the exploration state and the dialogue state. The NPC Boss Scripting Graph then uses the clickedNPC event defined by the transition and triggers it whenever the player clicks on the NPC boss.
 
 ## Milestone 2 Devlog
-Milestone 2 Devlog goes here.
+
+Question 1:
+
+My complicating gameplay feature is the system of earning money from the Boss NPC to purchase an item needed to complete another NPC quest.
+
+Step 1: Check the player if they have an object that fulfills the quest objective and let dialogue play that addresses completing the quest.
+
+1. Create a boolean variable that is True when the player clicks on an item. Check that the default value of the boolean variable stays False when first running the game, and is set to True when players click on the item.
+2. Attach a ScriptableObject that lets the completed quest dialogue play when the player successfully completes the quest. Check if this works by running the game, completing the quest, and clicking through the correct dialogue lines.
+3. Attach another ScriptableObject that let the incompleted quest dialogue play when the player has not completed the quest yet. Check if this works by running the game, clicking on a player reply that creates a quest objective, then clicking on the NPC again without clicking on any items.
+
+Step 2: Update the amount of money the player has, and the UI.
+
+1. Create an integer variable that stores the amount of money the player has and a textbox on the Canvas that displays the amount of money. Check this by creating a Debug Log message that reports the amount of money the player has in the start of the game.
+2. Once the completed quest dialogue lines reach the last index of the list of dialogue lines, increase the amount of money. Check this by creating a Debug Log message that reports the amount of money the player has after completing the quest and running through the dialogue.
+3. Update the UI that reflects the amount of money the player currently has. Check this by running the game and completing the quest.
+
+Step 3: Code a button that allows the player to purchase the right item and update the amount of money.
+
+1. Create a button UI and an image of the NPC quest item on the Canvas and an integer variable that stores the price of the quest item. Check this by running the game and seeing if the UI scales correctly.
+3. Write an if statement that checks if the amount of money the player has is enough to buy the quest item. Check this by creating a Debug Log message that returns True if the player has enough money when they click on the button.
+4. Update the amount of money variable that reflects the amount of money after purchasing the quest item. Check this by creating a Debug Log message that returns the value of money left after pruchasing the quest item.
+5. Update the money UI to reflect the current amount of money the player has. Check this by running the game and buying the quest item.
+
 ## Milestone 3 Devlog
 Milestone 3 Devlog goes here.
 ## Milestone 4 Devlog
