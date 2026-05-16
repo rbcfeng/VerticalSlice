@@ -38,6 +38,20 @@ Step 3: Code a button that allows the player to purchase the right item and upda
 4. Update the amount of money variable that reflects the amount of money after purchasing the quest item. Check this by creating a Debug Log message that returns the value of money left after pruchasing the quest item.
 5. Update the money UI to reflect the current amount of money the player has. Check this by running the game and buying the quest item.
 
+Question 2:
+
+My task break-down and quiz question didn't really help me build the feature for my Milestone because they were a bit simple. I ended up encountering a lot of different bugs and had to find some stuff that weren't outlined in the break-down or question. I think in the future, I might reference more specific steps, like how I'm going to use a ScriptableObject and what kind of events I'm going to create.
+
+Question 3:
+
+<img width="575" height="365" alt="Screenshot 2026-05-16 002012" src="https://github.com/user-attachments/assets/8eae774d-a039-4ada-8805-fcb2cd3fe054" />
+
+In my PurchaseButton.cs script, I referenced a Scene variable in Visual Scripting called amount_of_money. amount_of_money is added $5 in Visual Scripting when the player completes the phone quest, and is subtracted when the Purchase() method in PurchaseButton.cs is called, when clicking on the "Purchase" button. The Purchase() method gets the amount_of_money Scene variable and modifies its value from the line "amount_of_money = (int)Variables.Scene(Boss).Get("amount of money");." The following statements modify the value of amount_of_money. Referencing variables from Visual Scripting in C# scripts can help declutter some of the code in the scripting graphs and make the nodes more readable.
+
+Question 4:
+
+The Unity System to grade is the ScriptableObject dialogue nodes. Most of the system is represented in Visual Scripting in the NPC scripting graph and the ScritpableObjects are in the Dialogues folder in the Assets folder.
+
 ## Milestone 3 Devlog
 Milestone 3 Devlog goes here.
 ## Milestone 4 Devlog
