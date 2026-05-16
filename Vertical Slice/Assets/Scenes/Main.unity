@@ -204,6 +204,7 @@ MonoBehaviour:
   retro_game_console: {fileID: 1061900969}
   Boss: {fileID: 111043683}
   purchaseButton: {fileID: 1835073920}
+  moneyUI: {fileID: 1829905818}
 --- !u!1 &47745201
 GameObject:
   m_ObjectHideFlags: 0
@@ -618,9 +619,9 @@ GameObject:
   - component: {fileID: 111043684}
   - component: {fileID: 111043690}
   - component: {fileID: 111043687}
-  - component: {fileID: 111043686}
   - component: {fileID: 111043691}
   - component: {fileID: 111043692}
+  - component: {fileID: 111043693}
   m_Layer: 0
   m_Name: Boss
   m_TagString: Untagged
@@ -696,22 +697,6 @@ Transform:
   - {fileID: 1746602733}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &111043686
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 111043683}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _data:
-    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
-    _objectReferences:
-    - {fileID: 11400000, guid: 0f96ec16c79d9174bb178eb8f3919f04, type: 2}
 --- !u!114 &111043687
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -816,6 +801,22 @@ MonoBehaviour:
   _reply1: {fileID: 278275045}
   _reply2: {fileID: 2100787273}
   _reply3: {fileID: 1757915068}
+--- !u!114 &111043693
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 111043683}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: dd36185c100c3cf45991f8a8f6237699, type: 2}
 --- !u!1 &187305502 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1687585008417998591, guid: 8984064357c011f43ab997024e9b854a, type: 3}
@@ -1640,6 +1641,34 @@ PrefabInstance:
       propertyPath: m_Colors.m_NormalColor.r
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5670239778899153374, guid: 8984064357c011f43ab997024e9b854a, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5670239778899153374, guid: 8984064357c011f43ab997024e9b854a, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5670239778899153374, guid: 8984064357c011f43ab997024e9b854a, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 11400000, guid: dd36185c100c3cf45991f8a8f6237699, type: 2}
+    - target: {fileID: 5670239778899153374, guid: 8984064357c011f43ab997024e9b854a, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5670239778899153374, guid: 8984064357c011f43ab997024e9b854a, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5670239778899153374, guid: 8984064357c011f43ab997024e9b854a, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5670239778899153374, guid: 8984064357c011f43ab997024e9b854a, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 7041034499441312894, guid: 8984064357c011f43ab997024e9b854a, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -1946,6 +1975,8 @@ MonoBehaviour:
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"amount
       of money","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"purchasedsomething","value":{"$content":"purchasedsomething","$type":"System.String"},"typeHandle":{"Identification":"System.String,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"currentNode","value":{"$content":12,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"DialogueNode,
+      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"whichButtonClicked","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 29383688}
@@ -1960,6 +1991,7 @@ MonoBehaviour:
     - {fileID: 111043683}
     - {fileID: 1930241591}
     - {fileID: 1829905816}
+    - {fileID: 11400000, guid: 25eb2eb7e7eeeb74aa89fba122a93dea, type: 2}
 --- !u!4 &1215075383
 Transform:
   m_ObjectHideFlags: 0
@@ -2709,7 +2741,6 @@ GameObject:
   - component: {fileID: 1930241593}
   - component: {fileID: 1930241592}
   - component: {fileID: 1930241596}
-  - component: {fileID: 1930241595}
   - component: {fileID: 1930241594}
   m_Layer: 0
   m_Name: phone item
@@ -2820,22 +2851,6 @@ CapsuleCollider2D:
   m_Offset: {x: -0.05426732, y: 0.090446055}
   m_Size: {x: 2.3478951, y: 3.9043958}
   m_Direction: 0
---- !u!114 &1930241595
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1930241591}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _data:
-    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
-    _objectReferences:
-    - {fileID: 11400000, guid: 71034e7539b64f049b90c9518ca44d9e, type: 2}
 --- !u!114 &1930241596
 MonoBehaviour:
   m_ObjectHideFlags: 0

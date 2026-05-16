@@ -38,5 +38,8 @@ public void ShowPlayerReplies(string[] replies)
         }
     }
 
-
+public void HideChoices()
+    {
+        _playerChoices.SetActive(false);
+    }
 }

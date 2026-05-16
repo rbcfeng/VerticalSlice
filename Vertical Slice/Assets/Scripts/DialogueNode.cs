@@ -6,9 +6,10 @@ using UnityEngine;
 [CreateAssetMenu(menuName = "Dialogue/Dialogue Asset")]
 public class DialogueNode : ScriptableObject
 {
+    public bool endDialogue = false;
   
     public string[] _lines;
     public string[] _playerReplies;
-    public NextNode[] _nextnode;
+    public DialogueNode[] _nextnode;
 
 }

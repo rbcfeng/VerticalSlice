@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4826a30cda8a86f4bb2e460f3d210a27, type: 3}
   m_Name: Successful Quest
   m_EditorClassIdentifier: 
+  endDialogue: 0
   _lines:
   - Woah, you found it.
   - Woah, you found it.
