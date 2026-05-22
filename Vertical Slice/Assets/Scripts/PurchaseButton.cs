@@ -29,7 +29,6 @@ public class PurchaseButton : MonoBehaviour
      public void Purchase()
     {
         amount_of_money = (int)Variables.Scene(Boss).Get("amount of money");
-        Debug.Log("Clicked on Purchase");
         if (amount_of_money >= price)
         {
             amount_of_money -= 5;
