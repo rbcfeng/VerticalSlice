@@ -14,4 +14,19 @@ public class ChangeScenes : MonoBehaviour
     {
         SceneManager.LoadScene(0);
     }
+
+    public void ToThriftStore()
+    {
+        SceneManager.LoadScene(2);
+    }
+
+    public void ToConferenceRoom()
+    {
+        SceneManager.LoadScene(3);
+    }
+
+    public void ToBreakRoom()
+    {
+        SceneManager.LoadScene(4);
+    }
 }

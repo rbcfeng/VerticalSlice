@@ -9,7 +9,7 @@ public class PurchaseButton : MonoBehaviour
     public int price;
     public GameObject cannot_purchase;
     public GameObject retro_game_console;
-    public GameObject Boss;
+    public static GameObject Boss;
     public GameObject purchaseButton;
     public TMP_Text moneyUI;
     int amount_of_money;
@@ -28,10 +28,10 @@ public class PurchaseButton : MonoBehaviour
 
      public void Purchase()
     {
-        amount_of_money = (int)Variables.Scene(Boss).Get("amount of money");
+        amount_of_money = (int)Variables.Application.Get("amount of money");
         if (amount_of_money >= price)
         {
-            amount_of_money -= 5;
+            amount_of_money -= price;
             moneyUI.text = amount_of_money.ToString();
             retro_game_console.SetActive(false);
             purchaseButton.SetActive(false);

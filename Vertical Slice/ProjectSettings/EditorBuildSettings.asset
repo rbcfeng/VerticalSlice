@@ -11,4 +11,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Phone in Office.unity
     guid: eac22bc27ad10fa428d6c57541002fc6
+  - enabled: 1
+    path: Assets/Scenes/Thrift Store.unity
+    guid: 6569ec10790f42c4a938705c0f075fd9
+  - enabled: 1
+    path: Assets/Scenes/Conference Room.unity
+    guid: a2916c09d085014419b9e95fa378b075
+  - enabled: 1
+    path: Assets/Scenes/Break Room.unity
+    guid: 5b28823b163648544867515ea70a8a4d
   m_configObjects: {}
