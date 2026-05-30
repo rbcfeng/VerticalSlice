@@ -74,4 +74,6 @@ Milestone 4 Devlog goes here.
 ## Final Devlog
 Final Devlog goes here.
 ## Open-source assets
-- Cite any external assets used here!
+- phone, camera, music CD, and game console item - sketchfab.com
+- thrift store image - unsplash.com
+- conference room, break room, office entrance, and main office room - archello.com
