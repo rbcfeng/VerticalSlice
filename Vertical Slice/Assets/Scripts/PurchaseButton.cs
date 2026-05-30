@@ -31,6 +31,7 @@ public class PurchaseButton : MonoBehaviour
         amount_of_money = (int)Variables.Application.Get("amount of money");
         if (amount_of_money >= price)
         {
+            Debug.Log(moneyUI);
             amount_of_money -= price;
             moneyUI.text = amount_of_money.ToString();
             retro_game_console.SetActive(false);
