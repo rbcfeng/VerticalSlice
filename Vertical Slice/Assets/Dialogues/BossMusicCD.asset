@@ -20,5 +20,10 @@ MonoBehaviour:
   - I know, but I still want to remember it. Could you help me find the CD while
     I pack?
   - No problem.
+  _speaker:
+  - Boss
+  - You
+  - Boss
+  - You
   _playerReplies: []
   _nextnode: []

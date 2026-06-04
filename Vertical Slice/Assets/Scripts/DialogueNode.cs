@@ -9,6 +9,8 @@ public class DialogueNode : ScriptableObject
     public bool endDialogue = false;
   
     public string[] _lines;
+
+    public string[] _speaker;
     public string[] _playerReplies;
     public DialogueNode[] _nextnode;
 

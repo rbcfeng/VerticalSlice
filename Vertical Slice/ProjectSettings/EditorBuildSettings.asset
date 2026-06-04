@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Break Room.unity
     guid: 5b28823b163648544867515ea70a8a4d
+  - enabled: 1
+    path: Assets/Scenes/Outside.unity
+    guid: bd003c3bcd1848644913d8b15b2beabb
   m_configObjects: {}

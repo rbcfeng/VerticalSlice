@@ -16,6 +16,9 @@ MonoBehaviour:
   _lines:
   - Hey, how've you been? The water leaks are driving me crazy...
   - Yeah, I'm a little worried...
+  _speaker:
+  - Boss
+  - You
   _playerReplies:
   - How do you feel about leaving?
   - How far have you packed?

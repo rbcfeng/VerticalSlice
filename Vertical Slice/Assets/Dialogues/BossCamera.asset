@@ -19,5 +19,11 @@ MonoBehaviour:
   - I think it'd be a nice way to look back at the few pictures I took with it.
   - Can you help me find it?
   - No problem.
+  _speaker:
+  - Boss
+  - Boss
+  - Boss
+  - Boss
+  - You
   _playerReplies: []
   _nextnode: []

@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4826a30cda8a86f4bb2e460f3d210a27, type: 3}
+  m_Name: Friend1
+  m_EditorClassIdentifier: 
+  endDialogue: 0
+  _lines:
+  - Hey, are you worried as well? I've been thinking about the past...
+  - It's quite sad to see everything washing away...
+  - Remember when we used to walk through this park?
+  - And then we would play games at your house after...
+  - Yeah, I remembered that game console we shared.
+  - Do you still have that game console?
+  - Oh, I think I do, but I might've donated to the thrift shop...
+  - I'm not sure if I could get it back, but I can try.
+  - Really? I don't want to cause any troubles with that.
+  - I was just reminiscing about these memories and I think it's best if we could
+    just move on and not stick too much into the past.
+  - Yeah, it's okay. I'm sure it can be hard to let go of the past, but I feel like
+    having the game console at least helps us remind ourselves of our bond.
+  - I think it brings us pleasant memories and that nice feeling of being a child
+    again.
+  - Okay, I'm counting on you.
+  _speaker:
+  - Friend
+  - Friend
+  - Friend
+  - Friend
+  - You
+  - Friend
+  - You
+  - You
+  - Friend
+  - Friend
+  - You
+  - You
+  - Friend
+  _playerReplies: []
+  _nextnode: []

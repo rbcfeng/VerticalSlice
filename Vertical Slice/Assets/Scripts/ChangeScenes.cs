@@ -29,4 +29,9 @@ public class ChangeScenes : MonoBehaviour
     {
         SceneManager.LoadScene(4);
     }
+
+    public void ToPark()
+    {
+        SceneManager.LoadScene(5);
+    }
 }
