@@ -53,10 +53,27 @@ Question 4:
 The Unity System to grade is the ScriptableObject dialogue nodes. Most of the system is represented in Visual Scripting in the NPC scripting graph and the ScritpableObjects are in the Dialogues folder in the Assets folder.
 
 ## Milestone 3 Devlog
-Milestone 3 Devlog goes here.
+
+Question 1:
+
+<img width="1144" height="736" alt="Screenshot 2026-05-29 231912" src="https://github.com/user-attachments/assets/ec0954b2-f4a2-4a06-a5e0-ec83b223d5c9" />
+
+I created a Lighting ShaderGraph that creates a shiny rendering effect on the phone item in the office entrance scene when the lights are turned on. Currently, there is no way to turn the lights off, which will disable the rendering effect.
+My Lighting ShaderGraph uses the main texture of the phone item as a base color of the fragment of the vertex. The main texture is added with the shiny texture, which is a texture 2D of a white shiny image. The shiny texture is created by adding fraction of time for the movement of the shine, since time is increasing, with the UV node. The normal of the fragment uses the normal map parameter, which controls how light interacts with the phone item, which is flat. The flatness of the items would be consistent with the flat style of the game. The fragment also uses a mask texture to control where the the sprite receives the light, which would be the entire phone item. The fragment uses the alpha value of the main texture of the phone item.
+
+Question 2:
+
+I've improved putting the quest items in different areas, rather than right next to the boss NPC to add more difficulty to the level. I've also created a gameplay loop that triggers player options again to run through other player replies.
+
+Question 3:
+
+I've added more scenes and backgrounds to the game, as well as more items to collect, and buttons that change scenes and a purchase button. Changing scenes and adding more items contribute to the gameplay loop of collecting items to gain money, so that the player could eventually afford to purchase the game console in the thrift shop scene.
+
 ## Milestone 4 Devlog
 Milestone 4 Devlog goes here.
 ## Final Devlog
 Final Devlog goes here.
 ## Open-source assets
-- Cite any external assets used here!
+- phone, camera, music CD, and game console item - sketchfab.com
+- thrift store image - unsplash.com
+- conference room, break room, office entrance, and main office room - archello.com
