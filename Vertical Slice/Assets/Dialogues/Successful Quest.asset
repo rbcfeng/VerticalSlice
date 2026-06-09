@@ -20,5 +20,12 @@ MonoBehaviour:
   - I'm so proud of you. I need to compensate.
   - Here's $5 for your good deed.
   - Thank you!
+  _speaker:
+  - Boss
+  - Boss
+  - You
+  - Boss
+  - Boss
+  - You
   _playerReplies: []
   _nextnode: []

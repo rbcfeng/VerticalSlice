@@ -19,10 +19,16 @@ MonoBehaviour:
   - Yeah, I've got to say it was quite nice, but it got really annoying afterwards...
   - I know, but I still want to remember it. Could you help me find the CD while
     I pack?
-  - No problem.
+  - It shouldn't be too hard to find, I think...
+  - You might need to turn the lights on in some places.
+  - I just turned them off to preserve electricity in case we really need it.
+  - OK, no problem. It should be quick.
   _speaker:
   - Boss
   - You
+  - Boss
+  - Boss
+  - Boss
   - Boss
   - You
   _playerReplies: []
