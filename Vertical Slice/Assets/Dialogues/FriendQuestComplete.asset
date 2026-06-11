@@ -15,6 +15,7 @@ MonoBehaviour:
   endDialogue: 0
   _lines:
   - Wow, you actually got it back...
+  - Wow, you actually got it back...
   - Of course.
   - Have you finished packing?
   - Yeah, I'm also just reminiscing to be honest.
@@ -22,6 +23,7 @@ MonoBehaviour:
   - We better hurry before the tsunami gets too close...
   - Yeah, let's go.
   _speaker:
+  - Friend
   - Friend
   - You
   - Friend

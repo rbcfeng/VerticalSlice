@@ -9,11 +9,11 @@ public class PurchaseButton : MonoBehaviour
     public int price;
     public GameObject cannot_purchase;
     public GameObject retro_game_console;
-    public static GameObject Boss;
     public GameObject purchaseButton;
     public TMP_Text moneyUI;
     int amount_of_money;
     bool collectedGameBoy;
+
     
    
     void Start()
@@ -24,9 +24,13 @@ public class PurchaseButton : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log(collectedGameBoy);
+        
     }
 
+    public void CompletedFriendQuest()
+    {
+        collectedGameBoy = true;
+    }
      public void Purchase()
     {
         amount_of_money = (int)Variables.Application.Get("amount of money");
@@ -40,6 +44,7 @@ public class PurchaseButton : MonoBehaviour
             retro_game_console.SetActive(false);
             purchaseButton.SetActive(false);
             collectedGameBoy = true;
+            CompletedFriendQuest();
 
         }
         else
