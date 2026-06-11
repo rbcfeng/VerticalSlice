@@ -6,6 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Starting Scene.unity
+    guid: e4c2f7833bef10a479cdf9291430bcbf
+  - enabled: 1
+    path: Assets/Scenes/Outside.unity
+    guid: bd003c3bcd1848644913d8b15b2beabb
+  - enabled: 1
     path: Assets/Scenes/Main.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
   - enabled: 1
@@ -21,6 +27,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Break Room.unity
     guid: 5b28823b163648544867515ea70a8a4d
   - enabled: 1
-    path: Assets/Scenes/Outside.unity
-    guid: bd003c3bcd1848644913d8b15b2beabb
+    path: Assets/Scenes/Good End Scene.unity
+    guid: ef40cf00dc126e14b8c134f30895d9eb
+  - enabled: 1
+    path: Assets/Scenes/Bad End Scene.unity
+    guid: f082b42f8a83e0f40836733e437fb1e0
   m_configObjects: {}

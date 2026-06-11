@@ -1007,6 +1007,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c7d0236547f08f41b5ac304d4c9af51, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  shiny_material: {fileID: 2100000, guid: f88341264424e0f44a27c25547d9fd2b, type: 2}
+  default_material: {fileID: 2100000, guid: 1444ba8b22b4f644c8305843bf40deee, type: 2}
+  questItem: {fileID: 283872232}
   lights_UI: {fileID: 2072030913}
   lights: {fileID: 1670683311}
 --- !u!1 &544793029

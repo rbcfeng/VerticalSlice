@@ -11,7 +11,9 @@ public class PurchaseButton : MonoBehaviour
     public GameObject retro_game_console;
     public GameObject purchaseButton;
     public TMP_Text moneyUI;
-    int amount_of_money;
+    public int amount_of_money;
+    
+    private UpdateMoney updateMoney;
     bool collectedGameBoy;
 
     
@@ -38,19 +40,19 @@ public class PurchaseButton : MonoBehaviour
         
         if (amount_of_money >= price)
         {
-            Debug.Log(moneyUI);
             amount_of_money -= price;
-            moneyUI.text = amount_of_money.ToString();
+            //moneyUI.text = amount_of_money.ToString();
             retro_game_console.SetActive(false);
             purchaseButton.SetActive(false);
             collectedGameBoy = true;
             CompletedFriendQuest();
-
         }
         else
         {
             StartCoroutine(CannotPurchase(1f));
         }
+
+        updateMoney.UpdateAmount();
     }
 
     IEnumerator CannotPurchase(float waitTime)

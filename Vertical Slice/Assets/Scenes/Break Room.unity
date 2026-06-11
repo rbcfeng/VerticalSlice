@@ -199,6 +199,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c7d0236547f08f41b5ac304d4c9af51, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  shiny_material: {fileID: 2100000, guid: f88341264424e0f44a27c25547d9fd2b, type: 2}
+  default_material: {fileID: 2100000, guid: 1444ba8b22b4f644c8305843bf40deee, type: 2}
+  questItem: {fileID: 1187222727}
   lights_UI: {fileID: 2082055902}
   lights: {fileID: 1032758150}
 --- !u!1 &701603984
@@ -507,8 +510,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -939373575
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 951e41b0bda6c2243aa69f32d45f0315, type: 3}
   m_Color: {r: 0.26666668, g: 0.36862746, b: 0.57254905, a: 1}
