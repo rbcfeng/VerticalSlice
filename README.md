@@ -69,12 +69,23 @@ Question 3:
 
 I've added more scenes and backgrounds to the game, as well as more items to collect, and buttons that change scenes and a purchase button. Changing scenes and adding more items contribute to the gameplay loop of collecting items to gain money, so that the player could eventually afford to purchase the game console in the thrift shop scene.
 
-## Milestone 4 Devlog
-Milestone 4 Devlog goes here.
 ## Final Devlog
-Final Devlog goes here.
+
+Question 1:
+
+The gameplay loop in my game involves finding objects for the boss NPC cat to obtain money for purchasing a game console for the friend NPC. Some other content includes choosing different player replies to generate different boss NPC responses, as well as turning on the lights to find objects more clearly. This gameplay and the content is related to my original plan for a Vertical Slice because the full game will involve finding objects for different NPCs for rewards that will ultimately help the player complete the quest for the friend NPC to achieve a good ending. Finding some objects will be harder than the others, because they are in dark rooms, or rooms submerged underwater, which underwater rooms would be implemented in the full game.
+
+Question 2:
+
+The rendering effect of the shiny material for the objects is activated when the player turns on the lights in the room. There is a button the player can press that will change the text of the lights button, as well as changing the material of the quest item's SpriteRenderer. The gameplay logic for activating and deactivating the rendering effect is found in the LightsButton file. The LightsButton file defines a method, "ToggleLights()," which is called when the player presses the button. When the method is called, it will check if the lights UI text is currently "LIGHTS: ON," which will then set the light beams GameObject to true if true and the text will update to "LIGHTS: OFF," so players know that they can turn the lights off next. The if branch will also get the component of the quest item's material on the SpriteRenderer and set the material to the shiny texture that was created with a ShaderGraph called "Lighting." If the lights UI text is currently "LIGHTS: OFF" however, the light beams GameObject will be set to false, and the text will update to "LIGHTS: ON," so the player can turn the lights back on. The else if branch will also get the component of the quest item's material on the SpriteRenderer and set the material to its default material that does not use the Lighting ShaderGraph.
+
+Question 3:
+
+I broke down my Vertical Slice project by describing what I want specifically for the gameplay mechanics, and how that will play in different systems such as the audio, UI, Scene management, and ScriptableObjects. Then, I created a diagram that illustrates all the systems and determine how they will affect each other to make the gameplay mechanics function. From describing the necessary components for each system and the relationships between them and other systems, I wrote down a list of tasks needed that represents each function within each system, as well as each relationship between each system. This allowed me to see the scope of my project because I would be able to see how many tasks I would need to get done in a certain amount of time. I was able to use the task break-downs in the project, which helped me find out what I need to make something function, and also helped me highlight where potential bugs may be found because I excluded something in my steps. This plan helped me find out what I needed to scope down on. The plan esepcially worked a little poorly when I figured out mid-way that I would have to self-learn about what Scene management is and the concept of DontDestroyOnLoad, which messed up my diagram a bit.
+
 ## Open-source assets
 - phone, camera, music CD, and game console item - sketchfab.com
 - thrift store image - unsplash.com
 - conference room, break room, office entrance, and main office room - archello.com
 - font - [dafont.com](https://www.dafont.com/coolvetica.font)
+- BGM audio - [DOVA-SYNDROME](https://dova-s.jp/en/bgm/detail/23078)
