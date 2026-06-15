@@ -6,15 +6,15 @@ using TMPro;
 
 public class PurchaseButton : MonoBehaviour
 {
+    [SerializeField] TMP_Text moneyUI;
+    [SerializeField] UpdateMoney updateMoney;
     public int price;
     public GameObject cannot_purchase;
     public GameObject retro_game_console;
     public GameObject purchaseButton;
-    public TMP_Text moneyUI;
     public int amount_of_money;
-    
-    private UpdateMoney updateMoney;
-    bool collectedGameBoy;
+
+    public bool collectedGameBoy;
 
     
    
@@ -52,7 +52,6 @@ public class PurchaseButton : MonoBehaviour
             StartCoroutine(CannotPurchase(1f));
         }
 
-        updateMoney.UpdateAmount();
     }
 
     IEnumerator CannotPurchase(float waitTime)

@@ -34,4 +34,10 @@ public class ChangeScenes : MonoBehaviour
     {
         SceneManager.LoadScene(1);
     }
+
+    public void ToGoodEnding()
+    {
+        Time.timeScale = 0;
+        SceneManager.LoadScene(7);
+    }
 }
